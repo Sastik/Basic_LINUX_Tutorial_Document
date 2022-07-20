@@ -463,7 +463,7 @@ Display man Pages From Specific Sections:
    
   1. To display all the available signals you can use below command option-
         
-        kill -l
+         kill -l
       
    #  $dpkg 🐱‍👤
    Used to interact with packages on our system the dpkg command  provides  a long list option to customise the data we received while analysing our network. 
@@ -478,7 +478,7 @@ Display man Pages From Specific Sections:
      
          dpkg -l [package_name]
            
-  3.Check a Package is installed or not
+   3.Check a Package is installed or not
      
          dpkg -s
      
@@ -490,7 +490,7 @@ Display man Pages From Specific Sections:
           
          dpkg –-update-avail [package_name]
           
-  6.Forget Uninstalled and Unavailable Packages
+   6.Forget Uninstalled and Unavailable Packages
      
          dpkg --forget-old-unavail
      
