@@ -106,6 +106,36 @@ Another advantage: restricted program can be executed from the terminal by using
 
     Execute : user can run the file or lookup a spec file within a directory
  
+ #  📌Users and group in Linux🐱‍🚀:
+ 
+ A user is an entity,  in a Linux operating system,  that can manipulate and perform several other operation. 
+Users  are accounts that can be used to login into a system.
+ Each users  us identified by a unique identification number or UID  by the system 
+   All the information of users in a system are stored in file .the hashed passwords for users  are stored in file
+   
+   
+   
+ #  There are three types  of user in linux- root , regular , service,
+   
+   
+   1. The root user Account
+   This is main user account  in linux system. It is  automatically created during the installation. It has the highest privilege in system 
+It can do any administrative work and can access any service .
+It should not be used for routin activities 
+It cannot be deleted. But if require it can be disabled
+
+   2. the regular user account
+This is the normal user account during the installation,  one regular user account is created. After the installation we can creat as many regular user account as we need . This  account has moderate privilege . This account is intended for roùtin works it can access only those file and services for whiche it is authorized. As per requirement it can disable or deleted
+   
+   3.The service account
+Service account are created by installation packages when they are installed these account are used by Service  to run processes and execute functions
+
+
+# groups
+User  can be listed  in different groups. Group allow us to set permissions on the group level  instead of setting the permissions  on individual  level
+
+
+
  
  #  Basic Commands & operation in Kali Linux📸🐱
 
@@ -199,7 +229,10 @@ Another advantage: restricted program can be executed from the terminal by using
    14. Visual Classification of Files With Colors Using  ls –color=auto
       
            ls –color=auto
-        
+   15. Get a full list of hidden files .information about the user presentation,  size of the file and date and tjme of modifications Using  ls –la
+    
+            ls -la
+    
    #  $cd 🐱‍👤
    Used yo chnage current working  directory
    
@@ -258,283 +291,279 @@ To display the page from a specific section of a manual, use the syntax
    
            mkdir [options...] [directories_name]
     
-    Example :
+  Example :
     
     1.To displays a message for every directory created
     
           mkdir -v [directories]
            
           
-   #  $ 🐱‍👤
+   #  $rmdir 🐱‍👤
+   Used yo remove emty directories from the file system
+   
+   #  $rm [dir_name] -rf 🐱‍👤
+   Use to remove non' empty directories  from the file system
    
    
-   #  $ 🐱‍👤
+   #  $clear 🐱‍👤
+   Used  to clear the terminal screen
    
+   #  $cp 🐱‍👤
+   Used to coppy files or group of  files or directory 
    
-   #  $ 🐱‍👤
+ Example : 
+         cp [source][destination]
    
+   #  $mv 🐱‍👤
+   Used to move one pr more files or directory from one placed  to another place in the file system
    
-   #  $ 🐱‍👤
+   It also used  to rename file name 
    
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
+   To rename a file need to specify a single file  as a source  and a single file as a destination  target . Where destination should not exist  any directories name
+
  #  Important Commands & Operations📸🐱
 
 
-   #  $ 🐱‍👤
+   #  $date 🐱‍👤
+  Used to print out or display the system dare and time 
+   
+   #  $sudo date --set 🐱‍👤
+   Used to set date and time nof the system
+   
+   #  $cal 🐱‍👤
+   Used to see the calendar of a specific month or a whole year
+   
+   #  $figlet 🐱‍👤
+   The command makes turns ordinary terminal text into big fancy letters or creating ASCII text banners
    
    
-   #  $ 🐱‍👤
+   #  $factor 🐱‍👤
+   Used to print the prime factors of the given numbers
    
    
-   #  $ 🐱‍👤
+   #  $ps 🐱‍👤
+   Used to list the currently running  processes and their PIDs along with some other information depends on different options.
    
    
-   #  $ 🐱‍👤
+   #  $top 🐱‍👤
+   Used to print all process and an overview of all the processes that are running  in linux systems
    
    
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   
-   #  $ 🐱‍👤
+   #  $kill /pid 🐱‍👤
+   Used to show a real-time view of running processes in linux and display kernel-managed the PID
    
    
    
-   #  $ 🐱‍👤
+   #  $dpkg 🐱‍👤
+   Used to interact with packages on our system the dpkg command  provides  a long list option to customise the data we received while analysing our network. 
+
+ Ex : dpkg -- list
+        Dpkg -- update-avail
    
    
-   #  $ 🐱‍👤
+   #  $vlc 🐱‍👤
+   To run VLC media player  using command line replace source with path to the file to be played
+   
+   #  $display 🐱‍👤
+   Use it to display images sequence on any x server
+   
+   #  $sudo shatdown 🐱‍👤
+   Used to shutdown the in a safe way you can shutdown the machine immediately or schedule a shutdown using 24 hours format
    
    
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
+  
    
 #  Text Logs Related commands in Linux📸🐱
 
 
-   #  $ 🐱‍👤
+   #  $touch 🐱‍👤
+   The touch command is a standard command used in LINUX/UNIX OS which is used to craet , chnage and modify timestamp of a file
    
+   #  $echo 🐱‍👤
+   Used to display line of text / string that are passed as an argument
    
-   #  $ 🐱‍👤
+   #  $fight 🐱‍👤
+   Used for highlight text text saving file
    
+   #  $ifconfig 🐱‍👤
+   Used for ip information savin a text file
    
-   #  $ 🐱‍👤
+   #  $cat 🐱‍👤
+   Used to display text file on screen  read text file   creat a new text file file concatenation...etc
    
+   #  $head 🐱‍👤
+   Used to print top n nunber of data of the given input
    
-   #  $ 🐱‍👤
+   #  $tail 🐱‍👤
+   Used to print last n number of data of the given input
    
+   #  $more 🐱‍👤
+   Used to view the text files  in the command prompt displaying one screen at a time in case the file is large
    
-   #  $ 🐱‍👤
+   #  $less 🐱‍👤
+   Used to read the contents of a text file one page at a time .it is faster acces because if file is large if doesn't access the complete file but access it page by page
    
+   #  $nano 🐱‍👤
+   To creat and open a new file in nano text editor
    
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
+   #  $vim 🐱‍👤
+   To creat and some options to do a new file in vim text editor
    
    
    
-   #  $ 🐱‍👤
+   
+   
+   The first thing to write in a vim editor is to press i.
+ And at the end you have to type  : wq!
+ Where w for save and 
+             q for quit vim
+   
+  
 
 # Gettings System Info in Linux📸🐱
 
 
-   #  $ 🐱‍👤
+   #  $df 🐱‍👤
+   Used to display information related to fine system about total space and available space
+   
+   #  $free 🐱‍👤
+   Used to display summary about the total amount of the physical and swap memory as well as the free and used memory
+   
+   #  $du 🐱‍👤
+   Short for disk usage is use to estimate file space usage the do command can be consuming excessive amount of space on hard disk drive
+   
+   #  $cat/proc/cpuinfo 🐱‍👤
+   Display  what type of processor your system is running including the number of cpu's  present. Provides each process with an identifying number
+   
+   #  $lscpu 🐱‍👤
+   Used to display information about the cpu architecture
+   
+   #  $lsblk 🐱‍👤
+   Used to display details about block devices and these block devices are basically those files that represent devices connected to the pc
+   
+   #  $lsusb 🐱‍👤
+   Used to display the information about usb buses and the devices connected to them
+   
+   #  $lspci 🐱‍👤
+   Used to displays information about each PCI bus on the system. This includes information about the devices connected to the PCI subsystem
+   
+   #  $dmicode 🐱‍👤
+   Used to reads the system DMI table to display hardware and BIOS information of the server
+   
+   #  $lsb -release 🐱‍👤
+   Utility display LSB (Linux Standard Base) information about the Linux distribution
    
    
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
- 
- 
 #  Users and Groups in Linux📸🐱
 
 
-   #  $ 🐱‍👤
+   #  $adduser [user_name]🐱‍👤
+   Used to add a new user to your current Linux  machine. It allows us to modify the configuration of the user which is to be created
    
    
-   #  $ 🐱‍👤
+   #  $cat /etc/passwd🐱‍👤
+   Used to display a plan text -based  database that contains information for all user account on the system giving  for each account some usefull information like user id group id home directory shell and more
    
+   #  $userdel [user_name]🐱‍👤
+   Used to delete a user account and related files. Basically modifies the system account files , deleting all the entries which refer to the  username login
    
-   #  $ 🐱‍👤
+   #  $groupadd [gp_name]🐱‍👤
+  Group add command creat a new group  account using the values specified on the command line and the default values feom the system
    
+   #  $cat /etc/group 🐱‍👤
+   Used to display a plan text-file that contains a list of groups  and members belonging  to each group on the system
    
-   #  $ 🐱‍👤
+   #  $groupdel [gp_name]  🐱‍👤
+   Used to delete  all entries related to a group in the system
    
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
+   #  $passwd [user_name]🐱‍👤
+   Used to chnage passwords for user accounts
    
    
    
-   #  $ 🐱‍👤
+   
+  #  Networking Command in Linux📸🐱
+
+
+   #  $ifconfig 🐱‍👤
+   Used to assign an address to a network interface and to configure  or display  the current network interface configuration information
+   
+   For display the current network interface configuration information
+   
+   For assign an ip address and netmask address
+   
+   #  $ping 🐱‍👤
+   Used to check the network connectivity  between host and server. 
+This command takes as input the ip or the URL and sends a data packet to the specified  address with the message " PING" and get a response from the server/host this time is recorded which is called latency 
+
+ First ping low latency means fatser connection
+   
+   #  $nslookup 🐱‍👤
+   Used for DNS (Domain Name System) lookup oper also used to find the ip address of a particular domain name or find out the domain name of a particular ip address
    
    
-   #  $ 🐱‍👤
+   #  $host 🐱‍👤
+   Used for getting information from the DNS server also used to troubleshoot DNS-related problems
+   
+   #  $arp -e 🐱‍👤
+   The arp stands for " Address Resolution Protocol" it makes  changes in the kernel's table which contains the arp Address 
+   
+  It communicates with the IPV4  network and resolves the  ip address of any other machines  into the physical  address which is known as the MAC(Media Access control) address
+   
+   #  $hostname 🐱‍👤
+   Hostname  is used to display the system DNS name and display or set its host name or NIS(Network Information System) domain name.
    
    
-   #  $ 🐱‍👤
+   #  $netstate 🐱‍👤
+   Used for monitoring network connections both incoming and outgoing as well as  viewing tables , interfaces  stastic...etc
+   
+    To show both list ening and non- listening sockets
+    To list all TCP ports
+    To list all udp ports
+    To list the statistics  for all ports
+    To display the PID and programm names
+    
+    
+   #  $ip 🐱‍👤
+   Stands for internet protocol. Used to show or manipulate. Routing devices, and tunnels. 
+  It is much more powerful with more functions and facilities than ifconfig command
    
    
-   #  $ 🐱‍👤
+   [4:25 pm, 20/07/2022] Sastik Kumar🙃🤟: Used to much more powerful with more functions and facilities than ifconfig command.
+[4:25 pm, 20/07/2022] Sastik Kumar🙃🤟: Used to show all ip address associated an all network devices
+[4:30 pm, 20/07/2022] Sastik Kumar🙃🤟: Used to show of an particular interface
+[4:31 pm, 20/07/2022] Sastik Kumar🙃🤟: Itis used to display link layers information
+[4:32 pm, 20/07/2022] Sastik Kumar🙃🤟: This link option when used with -s option  tp show the statistics of the various network
+[4:35 pm, 20/07/2022] Sastik Kumar🙃🤟: This command helps you to see the rout packets your network will take as set in your table
+[4:36 pm, 20/07/2022] Sastik Kumar🙃🤟: This is used to assign an ip address to an interface
+[4:37 pm, 20/07/2022] Sastik Kumar🙃🤟: This is used to delete an an assignment ip address to an interface.
+[4:37 pm, 20/07/2022] Sastik Kumar🙃🤟: This option enables a network inter face.
+[4:38 pm, 20/07/2022] Sastik Kumar🙃🤟: This command  can monitor and displays the state of devices address and routes continuosly
+   #  $ss 🐱‍👤
+  Used to show network statistics. Ss is faster version of netstate command .
+Ss is essential for gathering network information  and troubleshooting network issues
+   
+   #  $dig 🐱‍👤
+   Dig command stands for domain information grouper basically used by network administrators used for verifying and troubleshooting DNS  problems and to perform  🎭  DNS lookups. Also ised for retrieving information about DNS lookups.
+ Also used for retrieveing information about DNS name servers
+   
+   #  $ssh 🐱‍👤
+   SSH stand for "Secure Shell" It is a protocol used to security connect to a remote server/system. Ssh is secure in the sense that it transfers  the date in encrypted from between the host and the client 
+ SSH runs at TCP / IP port 22
+ 
+ Step 1 : $ Services SSH start 
+Step 2 : $ SSH username@ipaddress
+   
+#  File permissions change related in linux📸🐱
+   
+   #  $chmod 🐱‍👤
+   
+   Chmod is used to chnage the access permissions of files and directories. It stand for chnage mode  
+ Option: 
+    '+' stands for add
+    '-' stands for remove
+
    
    
-   #  $ 🐱‍👤
    
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   #  $ 🐱‍👤
+  
