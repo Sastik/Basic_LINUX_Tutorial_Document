@@ -182,11 +182,11 @@ Another advantage: restricted program can be executed from the terminal by using
        
    10. Display File Inode Number Using ls -i
     
-          ls -i
+            ls -i
       
    11. Hide Control Characters Using ls -q
     
-          ls -q
+            ls -q
       
    12. Display File UID and GID Using ls -n
      
@@ -209,19 +209,19 @@ Another advantage: restricted program can be executed from the terminal by using
   
   Example :
   
-    1.Change directory to the root directory: 
+   1.Change directory to the root directory: 
            
            cd /
    
-    2.Change directory to the home directory: 
+   2.Change directory to the home directory: 
     
          cd ~
          
-    3.Move to the parent directory of current directory
+   3.Move to the parent directory of current directory
       
          cd ..
      
-    4. Navigate to a directory with white spaces
+   4. Navigate to a directory with white spaces
       
         cd "dir name"
         
