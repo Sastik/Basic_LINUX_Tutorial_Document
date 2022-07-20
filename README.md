@@ -109,6 +109,10 @@ Another advantage: restricted program can be executed from the terminal by using
  
  #  Basic Commands & operation in Kali Linux📸🐱
 
+     🎭 --help  :  It will print the general  syntax  of the command   along with the various options that can be used with the command as well as given a brief description about each option.
+     
+         [command] --help
+       
 
    #  $ 🐱‍👤
    
