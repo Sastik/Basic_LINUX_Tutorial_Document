@@ -127,7 +127,7 @@ Another advantage: restricted program can be executed from the terminal by using
          root , regular , service,
    
    
- 1. The root user Account: 
+  1. The root user Account: 
    
  🔗 This is main user account  in linux system. 
     
@@ -151,7 +151,7 @@ Another advantage: restricted program can be executed from the terminal by using
 
 🔗This account is intended for roùtin works it can access only those file and services for whiche it is authorized. As per requirement it can disable or deleted
    
- 3.The service account: 
+  3.The service account: 
    
 🔗Service account are created by installation packages when they are installed these account are used by Service  to run processes and execute functions
 
@@ -281,7 +281,7 @@ Another advantage: restricted program can be executed from the terminal by using
      
    4. Navigate to a directory with white spaces
       
-         cd "dir name"
+           cd "dir name"
         
     
    #  $man 🐱‍👤
