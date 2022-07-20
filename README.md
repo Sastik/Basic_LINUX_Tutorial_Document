@@ -115,39 +115,41 @@ Another advantage: restricted program can be executed from the terminal by using
        
 
    #  $who 🐱‍👤 
-   Used to get information about  currently loogd in user on to systems. It can also show the current run level,  time of the last systems boot and more
+   Used to get information about  currently loogd in user on to systems. It can also show the current run level,  time of the last systems boot and more.
    
        who
    
+   #  $whoami 🐱‍👤
+   Used to display the username of the current user when this command is invoked.
+     
+        whoami
    
    
-   #  $ 🐱‍👤
+   #  $users 🐱‍👤
+   Used to show the user names of users currently logged in to the current host
    
+          users
+   #  $uname 🐱‍👤
+   To display the information about the system (Os)
    
+         uname
+   #  $pwd 🐱‍👤
+   Prints the current working directory path.
    
-   #  $ 🐱‍👤
+         pwd
+   #  $ls 🐱‍👤
+   Used to list files or directories within the file system and show detailed information about them
    
+       ls
+   #  $cd 🐱‍👤
+   Used yo chnage current working  directory
+    Exe:  
+        cd 
+   #  $man [commandName] 🐱‍👤
+   Used to display the user manual of any command that we can run on the terminal
    
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
-   
-   #  $ 🐱‍👤
-   
-   
+   Exe: 
+         man 
    #  $ 🐱‍👤
    
    
