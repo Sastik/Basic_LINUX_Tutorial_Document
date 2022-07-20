@@ -3,7 +3,7 @@
 
 # About LINUX
 
-  🟢Linux is an open-source  operating  system  inspired by UNIX.
+  🟢 Linux is an open-source  operating  system  inspired by UNIX.
   Linux  is just  a kernel  and Linux distribution  makes  it a usable operating  systems, preferred os for computers, servers, mainframes, mobile  devices and embedded  devices.
  
  ⏰ Father of Linux operating  system: Linus Torvalds.
@@ -24,9 +24,16 @@ A Linux based server could run non-stop without a reboot for years on end
   
 #  📌How Different is Linux whene Compared to UNIX📗:
  
-  🐱‍👤
+  🐱‍👤UNIX  is a propriety operating  system  from Bell Laboratories the open Group  holds the UNIX  trademark & manage thr UNIX trademark  licencesing program. 
+
+Companies have their own licencesed UNIX  : 
+     IBM(AIX)
+     HP(HP- UX)
+     Apple (OSX)
   
-  🐱‍👤
+  🐱‍👤  Linux  is free , open source  and instanded as a non-propriety operating system for the masses
+  
+  LINUX  is a clone of Unix , written from Scratch  by linus Tarvalds & his team
  
  
  #  📌What is Linux kernel?🐱‍🚀:
