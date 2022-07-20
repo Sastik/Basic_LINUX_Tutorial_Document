@@ -293,22 +293,23 @@ Another advantage: restricted program can be executed from the terminal by using
          
          
    option – the search result output.
+   
    section number – the section in which to look for the man page.
+   
    command name – the name of the command which man page you want to see.
    
    Example: 
    
-   Look for man Pages :
+   💻Look for man Pages :
    
 The -f option displays all man pages that match the specified command name and states the sections in which the given command is present.
 
      man -f sleep
        
 Display man Pages From Specific Sections:
-   
-To display the page from a specific section of a manual, use the syntax
  
      man 3 sleep  
+     
    #  $mkdir 🐱‍👤
    Allows to user to creat or make new dirwctoin the current working director
    
@@ -341,16 +342,17 @@ To display the page from a specific section of a manual, use the syntax
    #  $cp 🐱‍👤
    Used to coppy files or group of  files or directory 
    
-   Syntax :
-    1. Copy Source file to Destination file -
+  Syntax :
+   
+   1. Copy Source file to Destination file -
            
            cp [Source] [Destination]
 
-    2. Copy Source file to Destination directory -
+   2. Copy Source file to Destination directory -
          
             cp [Source] [Directory]
   
-    3. Copy multiple Sources(files) to Directory -
+   3. Copy multiple Sources(files) to Directory -
         
             cp [Source-1] [Source-2] [Source-3] [Source-n] [Directory]
             
