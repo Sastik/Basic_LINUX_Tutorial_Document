@@ -143,12 +143,15 @@ Another advantage: restricted program can be executed from the terminal by using
        ls
    #  $cd 🐱‍👤
    Used yo chnage current working  directory
-    Exe:  
+   
+    syntax:  
+    
         cd 
    #  $man [commandName] 🐱‍👤
    Used to display the user manual of any command that we can run on the terminal
    
-   Exe: 
+   syntax: 
+   
          man 
    #  $ 🐱‍👤
    
