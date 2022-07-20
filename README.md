@@ -182,30 +182,50 @@ Another advantage: restricted program can be executed from the terminal by using
        
    10. Display File Inode Number Using ls -i
     
-         ls -i
+          ls -i
       
    11. Hide Control Characters Using ls -q
     
-         ls -q
+          ls -q
       
    12. Display File UID and GID Using ls -n
      
-         ls -n
+           ls -n
       
    13. Visual Classification of Files With Special Characters Using ls -F
     
-         ls -F
+           ls -F
       
    14. Visual Classification of Files With Colors Using  ls –color=auto
       
-         ls –color=auto
+           ls –color=auto
         
    #  $cd 🐱‍👤
    Used yo chnage current working  directory
    
   syntax:  
     
-      cd 
+      cd [directory_name]
+  
+  Example :
+  
+    1.Change directory to the root directory: 
+           
+           cd /
+   
+    2.Change directory to the home directory: 
+    
+         cd ~
+         
+    3.Move to the parent directory of current directory
+      
+         cd ..
+     
+    4. Navigate to a directory with white spaces
+      
+        cd "dir name"
+        
+    
    #  $man 🐱‍👤
    Used to display the user manual of any command that we can run on the terminal
    
