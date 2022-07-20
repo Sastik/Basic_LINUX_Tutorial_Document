@@ -111,48 +111,48 @@ Another advantage: restricted program can be executed from the terminal by using
 
 🎭 --help  :  It will print the general  syntax  of the command   along with the various options that can be used with the command as well as given a brief description about each option.
      
-         [commandName] --help
+       [commandName] --help
        
 
    #  $who 🐱‍👤 
    Used to get information about  currently loogd in user on to systems. It can also show the current run level,  time of the last systems boot and more.
    
-       who
+     who
    
    #  $whoami 🐱‍👤
    Used to display the username of the current user when this command is invoked.
      
-        whoami
+      whoami
    
    
    #  $users 🐱‍👤
    Used to show the user names of users currently logged in to the current host
    
-          users
+        users
    #  $uname 🐱‍👤
    To display the information about the system (Os)
    
-         uname
+       uname
    #  $pwd 🐱‍👤
    Prints the current working directory path.
    
-         pwd
+       pwd
    #  $ls 🐱‍👤
    Used to list files or directories within the file system and show detailed information about them
    
-       ls
+      ls
    #  $cd 🐱‍👤
    Used yo chnage current working  directory
    
   syntax:  
     
-        cd 
+       cd 
    #  $man 🐱‍👤
    Used to display the user manual of any command that we can run on the terminal
    
    syntax: 
    
-         man [option] [section number] [command name]
+      man [option] [section number] [command name]
          
          
    option – the search result output.
@@ -165,7 +165,7 @@ Another advantage: restricted program can be executed from the terminal by using
    
 The -f option displays all man pages that match the specified command name and states the sections in which the given command is present.
 
-       man -f sleep
+     man -f sleep
        
 Display man Pages From Specific Sections:
    
