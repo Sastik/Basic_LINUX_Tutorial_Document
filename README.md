@@ -26,10 +26,10 @@ A Linux based server could run non-stop without a reboot for years on end
  
   🐱‍👤UNIX  is a propriety operating  system  from Bell Laboratories the open Group  holds the UNIX  trademark & manage thr UNIX trademark  licencesing program. 
 
-Companies have their own licencesed UNIX  : 
-     IBM(AIX)
-     HP(HP- UX)
-     Apple (OSX)
+  Companies have their own licencesed UNIX  : 
+       IBM(AIX)
+       HP(HP- UX)
+       Apple (OSX)
   
   🐱‍👤  Linux  is free , open source  and instanded as a non-propriety operating system for the masses
   
