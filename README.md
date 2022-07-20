@@ -11,14 +11,14 @@
  
   🟢 The main benefits  are its offers a free  operating  system, you do not have to spend hundreds  of  dollars  to get the OS like Windows. 
   
-    Bing open source  it undefined the source code , the Linux  operating  system  now pff millions  of programs  appl to choose  from  most  of them are free.
+Bing open source  it undefined the source code , the Linux  operating  system  now pff millions  of programs  appl to choose  from  most  of them are free.
     
   🟢 The once you have  Linux  installed  you no longer needed an anti-virus  because Linux source  system  more so there  is a global development community constantly  looking  at ways  to enhance  its security  with  each upgrade the OS becomes more secure  and robust. 
 
   🟢 Linux  is the OS  of choice for server environments  due to ist stability  and reliability 
    Mega companies like Amazon,  Facebook  and Google  used Linux  for their  service. 
 
-   A Linux based server could run non-stop without a reboot for years on end
+A Linux based server could run non-stop without a reboot for years on end
   
      
   
