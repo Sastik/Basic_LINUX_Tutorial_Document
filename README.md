@@ -292,11 +292,11 @@ Another advantage: restricted program can be executed from the terminal by using
       man [option] [section number] [command name]
          
          
-   option – the search result output.
+   🔗option – the search result output.
    
-   section number – the section in which to look for the man page.
+   🔗section number – the section in which to look for the man page.
    
-   command name – the name of the command which man page you want to see.
+   🔗command name – the name of the command which man page you want to see.
    
    Example: 
    
@@ -361,6 +361,7 @@ Display man Pages From Specific Sections:
    Used to move one or more files or directory from one placed  to another place in the file system
    
    Syntax: 
+   
           mv [source] [destination]
           
    It also used  to rename file name 
@@ -375,10 +376,11 @@ Display man Pages From Specific Sections:
    
    EXAMPLE :
      
-     1. date with no option displau current date.
+    1. date with no option displau current date.
           
           date
-      2. -u Option: Displays the time in GMT(Greenwich Mean Time)/UTC(Coordinated Universal Time )time zone. 
+          
+    2. -u Option: Displays the time in GMT(Greenwich Mean Time)/UTC(Coordinated Universal Time )time zone. 
       
           date -u
           
@@ -396,15 +398,15 @@ Display man Pages From Specific Sections:
          
    Example : 
    
-    1.calendar of the complete current year with the current date highlighted using cal -y
+   1.calendar of the complete current year with the current date highlighted using cal -y
          
             cal -y
           
-    2. Shows calendar of selected month and year. 
+   2. Shows calendar of selected month and year. 
  
             cal  [ month ] [year]
    
-    3. Shows the whole calendar of the year. 
+   3. Shows the whole calendar of the year. 
     
             cal [year]
            
