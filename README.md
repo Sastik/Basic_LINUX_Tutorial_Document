@@ -129,7 +129,7 @@ Another advantage: restricted program can be executed from the terminal by using
    
  1. The root user Account: 
    
-  This is main user account  in linux system. 
+ 🔗 This is main user account  in linux system. 
     
  🔗It is  automatically created during the installation.
     
@@ -323,25 +323,44 @@ To display the page from a specific section of a manual, use the syntax
           mkdir -v [directories]
            
           
-   #  $rmdir 🐱‍👤
+   #  $rmdir [dir_name] 🐱‍👤
    Used yo remove emty directories from the file system
    
+        rmdir mydir1
+      
    #  $rm [dir_name] -rf 🐱‍👤
    Use to remove non' empty directories  from the file system
-   
+        
+        rmdir mydir1 -rf
    
    #  $clear 🐱‍👤
    Used  to clear the terminal screen
    
+        clear
+        
    #  $cp 🐱‍👤
    Used to coppy files or group of  files or directory 
    
- Example : 
-         cp [source][destination]
+   Syntax :
+    1. Copy Source file to Destination file -
+           
+           cp [Source] [Destination]
+
+    2. Copy Source file to Destination directory -
+         
+            cp [Source] [Directory]
+  
+    3. Copy multiple Sources(files) to Directory -
+        
+            cp [Source-1] [Source-2] [Source-3] [Source-n] [Directory]
+            
    
    #  $mv 🐱‍👤
-   Used to move one pr more files or directory from one placed  to another place in the file system
+   Used to move one or more files or directory from one placed  to another place in the file system
    
+   Syntax: 
+          mv [source] [destination]
+          
    It also used  to rename file name 
    
    To rename a file need to specify a single file  as a source  and a single file as a destination  target . Where destination should not exist  any directories name
@@ -352,51 +371,156 @@ To display the page from a specific section of a manual, use the syntax
    #  $date 🐱‍👤
   Used to print out or display the system dare and time 
    
+   EXAMPLE :
+     
+     1. date with no option displau current date.
+          
+          date
+      2. -u Option: Displays the time in GMT(Greenwich Mean Time)/UTC(Coordinated Universal Time )time zone. 
+      
+          date -u
+          
    #  $sudo date --set 🐱‍👤
    Used to set date and time nof the system
+    
+        sudo date --set '11 feb 2023 00:01'
    
    #  $cal 🐱‍👤
    Used to see the calendar of a specific month or a whole year
    
-   #  $figlet 🐱‍👤
+   Syntax: 
+
+         cal  [ month ] [year]
+         
+   Example : 
+   
+    1.calendar of the complete current year with the current date highlighted using cal -y
+         
+            cal -y
+          
+    2. Shows calendar of selected month and year. 
+ 
+            cal  [ month ] [year]
+   
+    3. Shows the whole calendar of the year. 
+    
+            cal [year]
+           
+   #  $figlet/toilet 🐱‍👤
    The command makes turns ordinary terminal text into big fancy letters or creating ASCII text banners
    
-   
+   Example :
+     1.Transform as a banner or large text using figlet
+     
+         figlet -c Sastik Kumar
+      
+     2. The toilet command is also used to transform text to large ASCII characters
+     
+         toilet kali linux
+        
    #  $factor 🐱‍👤
    Used to print the prime factors of the given numbers
    
-   
+   Syntax:
+
+           factor [NUMBER]
+
    #  $ps 🐱‍👤
    Used to list the currently running  processes and their PIDs along with some other information depends on different options.
    
+   Syntax: 
+         ps [options]
    
+   Example :
+        
+           ps
+   
+     1. View all processes associated with this terminal : 
+ 
+           ps -T
+           
+     2.  View all the running processes :  
+          
+          ps - r
+
    #  $top 🐱‍👤
    Used to print all process and an overview of all the processes that are running  in linux systems
    
-   
+        top
+        
    #  $kill /pid 🐱‍👤
    Used to show a real-time view of running processes in linux and display kernel-managed the PID
-   
-   
+      
+           kill [pid]
+      
+   Example :
+      1. To display all the available signals you can use below command option-
+        
+            kill -l
+      
    
    #  $dpkg 🐱‍👤
    Used to interact with packages on our system the dpkg command  provides  a long list option to customise the data we received while analysing our network. 
-
- Ex : dpkg -- list
-        Dpkg -- update-avail
    
+   Example : 
+   
+    1. To view and list all the installed packages, use the “-l” option along with the command.
+     
+            dpkg -l
+           
+     2. To view a specific package installed or not use the option “-l” along with package-name. For example
+     
+            dpkg -l [package_name]
+           
+     3.Check a Package is installed or not
+     
+             dpkg -s
+     
+     4. Check the location of Packages installed
+     
+            dpkg -L [package_name]
+           
+     5. Replace available Package information
+          
+            dpkg –-update-avail [package_name]
+          
+     6.Forget Uninstalled and Unavailable Packages
+     
+             dpkg --forget-old-unavail
+     
    
    #  $vlc 🐱‍👤
    To run VLC media player  using command line replace source with path to the file to be played
-   
+       
+       vlc [source]
+       
    #  $display 🐱‍👤
    Use it to display images sequence on any x server
+   
+       display [source]
    
    #  $sudo shatdown 🐱‍👤
    Used to shutdown the in a safe way you can shutdown the machine immediately or schedule a shutdown using 24 hours format
    
-   
-  
+   Syntax :
+     
+          shutdown [OPTIONS] [TIME] [MESSAGE]
+          
+    Example :
+           
+           sudo shutdown now
+           
+      1. Make shutdown power-off machine
+      
+            shutdown -P
+            
+       2. reboot using shutdown
+       
+            shutdown -r
+            
+       3.cancel a scheduled shutdown
+       
+            sudo shutdown -c
    
 #  Text Logs Related commands in Linux📸🐱
 
