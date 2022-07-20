@@ -319,7 +319,7 @@ Display man Pages From Specific Sections:
     
   Example :
     
-    1.To displays a message for every directory created
+  1.To displays a message for every directory created
     
           mkdir -v [directories]
            
@@ -376,11 +376,11 @@ Display man Pages From Specific Sections:
    
    EXAMPLE :
      
-    1. date with no option displau current date.
+   1. date with no option displau current date.
           
           date
           
-    2. -u Option: Displays the time in GMT(Greenwich Mean Time)/UTC(Coordinated Universal Time )time zone. 
+   2. -u Option: Displays the time in GMT(Greenwich Mean Time)/UTC(Coordinated Universal Time )time zone. 
       
           date -u
           
