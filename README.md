@@ -531,47 +531,137 @@ Display man Pages From Specific Sections:
 #  Text Logs Related commands in Linux📸🐱
 
 
-   #  $touch 🐱‍👤
+   #  $touch / type 🐱‍👤
    The touch command is a standard command used in LINUX/UNIX OS which is used to craet , chnage and modify timestamp of a file
    
+   Example : 
+   
+       touch [file_name]
+   
+ 1. Touch command to create multiple files
+   
+        touch [File1_name] [File2_name] [File3_name]
+    
+  2.check whether a file is created or not. If not created then don’t create it. This command avoids creating files.
+  
+        touch -c [fileName]
+        
    #  $echo 🐱‍👤
    Used to display line of text / string that are passed as an argument
    
-   #  $fight 🐱‍👤
-   Used for highlight text text saving file
+ Syntax :
+
+         echo [option] [string]
    
-   #  $ifconfig 🐱‍👤
+   #  $figlet [text] >fig.txt🐱‍👤
+   Used for highlight text saving file
+   
+   Syntax: 
+       
+        figlet [text] > fig.txt
+       
+   
+   #  $ifconfig > ipinfo.txt 🐱‍👤
    Used for ip information savin a text file
    
+    Syntax :
+     
+          ifconfig > ipinfo.txt
+          
    #  $cat 🐱‍👤
    Used to display text file on screen  read text file   creat a new text file file concatenation...etc
    
-   #  $head 🐱‍👤
+   Example:
+   
+  1. To view a single file -
+
+         cat filename
+         
+   2. To view multiple files 
+
+          cat [file1] [file2]
+          
+    3. To view contents of a file preceding with line numbers. 
+    
+           cat -n [filename]
+    4.Create a file 
+    
+           cat > [newfil]
+    
+    5. Copy the contents of one file to another file. 
+    
+           cat [source_file] > [destination-file]
+    
+    6  append the contents of one file to the end of another file.
+    
+           cat file1 >> file2
+     
+     7.display the content of all text files in the folder. 
+     
+           cat *.txt
+           
+    8.write in an already existing file
+      
+           cat >> geeks.txt
+           
+           The newly added text.
+
+   #  $head [n] [filename] 🐱‍👤
    Used to print top n nunber of data of the given input
    
-   #  $tail 🐱‍👤
+   Syntax: 
+   
+        head [OPTION] [FILE]
+   
+   #  $tail [tail] [filename] 🐱‍👤
    Used to print last n number of data of the given input
    
+   Syntax: 
+   
+        tail [OPTION] [FILE]
+        
    #  $more 🐱‍👤
    Used to view the text files  in the command prompt displaying one screen at a time in case the file is large
    
+   Syntax :
+   
+        more [file_name]
+        
    #  $less 🐱‍👤
    Used to read the contents of a text file one page at a time .it is faster acces because if file is large if doesn't access the complete file but access it page by page
    
+   
+   Syntax :
+   
+        more [file_name]
+        
    #  $nano 🐱‍👤
    To creat and open a new file in nano text editor
+   
+   Example : 
+   
+   1. To create and open a new file
+
+          nano [new_filename] 
    
    #  $vim 🐱‍👤
    To creat and some options to do a new file in vim text editor
    
-   
-   
-   
-   
-   The first thing to write in a vim editor is to press i.
+   Syntax :
+        
+          vim [new_file]
+  
+ The first thing to write in a vim editor is to press i.
+ 
+     i
+     
  And at the end you have to type  : wq!
+ 
+     wq! 
+     
  Where w for save and 
-             q for quit vim
+ 
+ q for quit vim
    
   
 
