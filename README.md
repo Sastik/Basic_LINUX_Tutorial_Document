@@ -127,38 +127,38 @@ Another advantage: restricted program can be executed from the terminal by using
          root , regular , service,
    
    
-   1. The root user Account: 
+ 1. The root user Account: 
    
-    This is main user account  in linux system. 
+  This is main user account  in linux system. 
     
-    It is  automatically created during the installation.
+ 🔗It is  automatically created during the installation.
     
-    It has the highest privilege in system 
+ 🔗It has the highest privilege in system 
     
-    It can do any administrative work and can access any service .
+ 🔗It can do any administrative work and can access any service .
     
-    It should not be used for routin activities 
+ 🔗It should not be used for routin activities 
     
-    It cannot be deleted. But if require it can be disabled
+ 🔗It cannot be deleted. But if require it can be disabled
 
-   2. the regular user account:
+ 2. the regular user account:
     
-This is the normal user account during the installation,  one regular user account is created.
+🔗This is the normal user account during the installation,  one regular user account is created.
 
-After the installation we can creat as many regular user account as we need .
+🔗After the installation we can creat as many regular user account as we need .
 
-This  account has moderate privilege .
+🔗This  account has moderate privilege .
 
-This account is intended for roùtin works it can access only those file and services for whiche it is authorized. As per requirement it can disable or deleted
+🔗This account is intended for roùtin works it can access only those file and services for whiche it is authorized. As per requirement it can disable or deleted
    
-   3.The service account: 
+ 3.The service account: 
    
-Service account are created by installation packages when they are installed these account are used by Service  to run processes and execute functions
+🔗Service account are created by installation packages when they are installed these account are used by Service  to run processes and execute functions
 
 
 🟢  groups :
 
-User  can be listed  in different groups. Group allow us to set permissions on the group level  instead of setting the permissions  on individual  level
+🔗User  can be listed  in different groups. Group allow us to set permissions on the group level  instead of setting the permissions  on individual  level
 
 
  
