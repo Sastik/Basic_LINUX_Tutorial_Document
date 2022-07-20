@@ -461,11 +461,10 @@ Display man Pages From Specific Sections:
       
    Example :
    
-    1. To display all the available signals you can use below command option-
+  1. To display all the available signals you can use below command option-
         
-           kill -l
+        kill -l
       
-   
    #  $dpkg 🐱‍👤
    Used to interact with packages on our system the dpkg command  provides  a long list option to customise the data we received while analysing our network. 
    
@@ -477,23 +476,23 @@ Display man Pages From Specific Sections:
            
   2. To view a specific package installed or not use the option “-l” along with package-name. For example
      
-          dpkg -l [package_name]
+         dpkg -l [package_name]
            
-   3.Check a Package is installed or not
+  3.Check a Package is installed or not
      
-          dpkg -s
+         dpkg -s
      
-   4. Check the location of Packages installed
+  4. Check the location of Packages installed
      
-          dpkg -L [package_name]
+         dpkg -L [package_name]
            
-   5. Replace available Package information
+  5. Replace available Package information
           
-          dpkg –-update-avail [package_name]
+         dpkg –-update-avail [package_name]
           
-   6.Forget Uninstalled and Unavailable Packages
+  6.Forget Uninstalled and Unavailable Packages
      
-          dpkg --forget-old-unavail
+         dpkg --forget-old-unavail
      
    
    #  $vlc 🐱‍👤
@@ -509,25 +508,25 @@ Display man Pages From Specific Sections:
    #  $sudo shatdown 🐱‍👤
    Used to shutdown the in a safe way you can shutdown the machine immediately or schedule a shutdown using 24 hours format
    
-   Syntax :
+  Syntax :
      
-          shutdown [OPTIONS] [TIME] [MESSAGE]
+         shutdown [OPTIONS] [TIME] [MESSAGE]
           
-    Example :
+   Example :
            
-           sudo shutdown now
+          sudo shutdown now
            
-  1. Make shutdown power-off machine
+ 1. Make shutdown power-off machine
       
-         shutdown -P
+        shutdown -P
             
-  2. reboot using shutdown
+ 2. reboot using shutdown
        
-         shutdown -r
+        shutdown -r
             
-  3.cancel a scheduled shutdown
+ 3.cancel a scheduled shutdown
        
-         sudo shutdown -c
+        sudo shutdown -c
    
 #  Text Logs Related commands in Linux📸🐱
 
