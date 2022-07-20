@@ -421,7 +421,7 @@ Display man Pages From Specific Sections:
       
  2. The toilet command is also used to transform text to large ASCII characters
      
-       toilet kali linux
+         toilet kali linux
         
    #  $factor 🐱‍👤
    Used to print the prime factors of the given numbers
@@ -441,11 +441,11 @@ Display man Pages From Specific Sections:
         
            ps
    
-    1. View all processes associated with this terminal : 
+  1. View all processes associated with this terminal : 
  
-           ps -T
+          ps -T
            
-    2.  View all the running processes :  
+  2.  View all the running processes :  
           
           ps - r
 
@@ -457,13 +457,13 @@ Display man Pages From Specific Sections:
    #  $kill /pid 🐱‍👤
    Used to show a real-time view of running processes in linux and display kernel-managed the PID
       
-           kill [pid]
+          kill [pid]
       
    Example :
    
-     1. To display all the available signals you can use below command option-
+    1. To display all the available signals you can use below command option-
         
-            kill -l
+           kill -l
       
    
    #  $dpkg 🐱‍👤
@@ -471,29 +471,29 @@ Display man Pages From Specific Sections:
    
    Example : 
    
-    1. To view and list all the installed packages, use the “-l” option along with the command.
+  1. To view and list all the installed packages, use the “-l” option along with the command.
      
-            dpkg -l
+          dpkg -l
            
-     2. To view a specific package installed or not use the option “-l” along with package-name. For example
+  2. To view a specific package installed or not use the option “-l” along with package-name. For example
      
-            dpkg -l [package_name]
+          dpkg -l [package_name]
            
-     3.Check a Package is installed or not
+   3.Check a Package is installed or not
      
-             dpkg -s
+          dpkg -s
      
-     4. Check the location of Packages installed
+   4. Check the location of Packages installed
      
-            dpkg -L [package_name]
+          dpkg -L [package_name]
            
-     5. Replace available Package information
+   5. Replace available Package information
           
-            dpkg –-update-avail [package_name]
+          dpkg –-update-avail [package_name]
           
-     6.Forget Uninstalled and Unavailable Packages
+   6.Forget Uninstalled and Unavailable Packages
      
-             dpkg --forget-old-unavail
+          dpkg --forget-old-unavail
      
    
    #  $vlc 🐱‍👤
@@ -517,17 +517,17 @@ Display man Pages From Specific Sections:
            
            sudo shutdown now
            
-   1. Make shutdown power-off machine
+  1. Make shutdown power-off machine
       
-          shutdown -P
+         shutdown -P
             
-   2. reboot using shutdown
+  2. reboot using shutdown
        
-          shutdown -r
+         shutdown -r
             
-   3.cancel a scheduled shutdown
+  3.cancel a scheduled shutdown
        
-          sudo shutdown -c
+         sudo shutdown -c
    
 #  Text Logs Related commands in Linux📸🐱
 
