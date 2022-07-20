@@ -146,7 +146,7 @@ Another advantage: restricted program can be executed from the terminal by using
     
    1. Open Last Edited File Using ls -t
 
-        ls -t
+           ls -t
     
   2. Display One File Per Line Using ls -1
     
