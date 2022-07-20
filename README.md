@@ -223,7 +223,7 @@ Another advantage: restricted program can be executed from the terminal by using
      
    4. Navigate to a directory with white spaces
       
-        cd "dir name"
+         cd "dir name"
         
     
    #  $man 🐱‍👤
@@ -251,9 +251,20 @@ Display man Pages From Specific Sections:
 To display the page from a specific section of a manual, use the syntax
  
      man 3 sleep  
-   #  $ 🐱‍👤
+   #  $mkdir 🐱‍👤
+   Allows to user to creat or make new dirwctoin the current working director
    
+   syntax: 
    
+           mkdir [options...] [directories_name]
+    
+    Example :
+    
+    1.To displays a message for every directory created
+    
+          mkdir -v [directories]
+           
+          
    #  $ 🐱‍👤
    
    
