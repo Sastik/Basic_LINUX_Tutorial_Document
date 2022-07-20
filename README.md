@@ -25,8 +25,7 @@ A Linux based server could run non-stop without a reboot for years on end
 #  📌How Different is Linux whene Compared to UNIX📗:
  
   🐱‍👤UNIX  is a propriety operating  system  from Bell Laboratories the open Group  holds the UNIX  trademark & manage thr UNIX trademark  licencesing program. 
-
-  Companies have their own licencesed UNIX  : 
+Companies have their own licencesed UNIX  : 
        IBM(AIX)
        HP(HP- UX)
        Apple (OSX)
