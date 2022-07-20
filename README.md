@@ -128,7 +128,7 @@ Another advantage: restricted program can be executed from the terminal by using
    #  $users 🐱‍👤
    Used to show the user names of users currently logged in to the current host
    
-        users
+       users
    #  $uname 🐱‍👤
    To display the information about the system (Os)
    
@@ -141,12 +141,71 @@ Another advantage: restricted program can be executed from the terminal by using
    Used to list files or directories within the file system and show detailed information about them
    
       ls
+      
+   Example : 
+    
+   1. Open Last Edited File Using ls -t
+
+       ls -t
+    
+   2. Display One File Per Line Using ls -1
+    
+       ls -1
+     
+    3. Display All Information About Files/Directories Using ls -l
+    
+       ls -l
+     
+    4. Display File Size in Human Readable Format Using ls -lh
+       
+       ls -lh
+       
+    5. Display Directory Information Using ls -ld
+    
+       ls -ld
+       
+    6. Order Files Based on Last Modified Time Using ls -lt
+    
+       ls -lt
+       
+    7. Order Files Based on Last Modified Time (In Reverse Order) Using ls -ltr
+    
+       ls -ltr
+       
+    8. Display Hidden Files Using ls -a (or) ls -A
+     
+       ls -a
+       
+    9. Display Files Recursively Using ls -R
+    
+       ls -R
+       
+    10. Display File Inode Number Using ls -i
+    
+      ls -i
+      
+    11. Hide Control Characters Using ls -q
+    
+      ls -q
+      
+    12. Display File UID and GID Using ls -n
+    
+      ls -n
+      
+    13. Visual Classification of Files With Special Characters Using ls -F
+    
+      ls -F
+      
+    14. Visual Classification of Files With Colors Using  ls –color=auto
+      
+      ls –color=auto
+        
    #  $cd 🐱‍👤
    Used yo chnage current working  directory
    
   syntax:  
     
-       cd 
+      cd 
    #  $man 🐱‍👤
    Used to display the user manual of any command that we can run on the terminal
    
