@@ -4,8 +4,7 @@
 # About LINUX
 
   🟢Linux is an open-source  operating  system  inspired by UNIX.
-  
-    Linux  is just  a kernel  and Linux distribution  makes  it a usable operating  systems, preferred os for computers, servers, mainframes, mobile  devices and embedded  devices.
+  Linux  is just  a kernel  and Linux distribution  makes  it a usable operating  systems, preferred os for computers, servers, mainframes, mobile  devices and embedded  devices.
  
  ⏰ Father of Linux operating  system: Linus Torvalds.
 # 📌Why we use Linux?:
