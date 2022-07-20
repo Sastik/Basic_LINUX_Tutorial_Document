@@ -111,10 +111,13 @@ Another advantage: restricted program can be executed from the terminal by using
 
 🎭 --help  :  It will print the general  syntax  of the command   along with the various options that can be used with the command as well as given a brief description about each option.
      
-         [command] --help
+         [commandName] --help
        
 
-   #  $ 🐱‍👤
+   #  $who 🐱‍👤 
+   Used to get information about  currently loogd in user on to systems. It can also show the current run level,  time of the last systems boot and more
+   
+       who
    
    
    
