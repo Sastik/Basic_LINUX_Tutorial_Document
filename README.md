@@ -144,15 +144,34 @@ Another advantage: restricted program can be executed from the terminal by using
    #  $cd 🐱‍👤
    Used yo chnage current working  directory
    
-    syntax:  
+  syntax:  
     
         cd 
-   #  $man [commandName] 🐱‍👤
+   #  $man 🐱‍👤
    Used to display the user manual of any command that we can run on the terminal
    
    syntax: 
    
-         man 
+         man [option] [section number] [command name]
+         
+         
+   option – the search result output.
+   section number – the section in which to look for the man page.
+   command name – the name of the command which man page you want to see.
+   
+   Example: 
+   
+   Look for man Pages :
+   
+The -f option displays all man pages that match the specified command name and states the sections in which the given command is present.
+
+       man -f sleep
+       
+Display man Pages From Specific Sections:
+   
+To display the page from a specific section of a manual, use the syntax
+ 
+     man 3 sleep  
    #  $ 🐱‍👤
    
    
