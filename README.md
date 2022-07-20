@@ -108,32 +108,57 @@ Another advantage: restricted program can be executed from the terminal by using
  
  #  📌Users and group in Linux🐱‍🚀:
  
- A user is an entity,  in a Linux operating system,  that can manipulate and perform several other operation. 
-Users  are accounts that can be used to login into a system.
- Each users  us identified by a unique identification number or UID  by the system 
-   All the information of users in a system are stored in file .the hashed passwords for users  are stored in file
+ 🟢 A user is an entity,  in a Linux operating system,  that can manipulate and perform several other operation. 
+ 
+   Users  are accounts that can be used to login into a system.
+ 🟢 Each users  us identified by a unique identification number or UID  by the system 
+ 
+  🐱‍ All the information of users in a system are stored in file -
+  
+           /etc/passwd
+  
+  🐱‍The hashed passwords for users  are stored in file -
+           
+           /etc/shadow
    
    
+  🟢 There are three types  of user in linux- 
+  
+         root , regular , service,
    
- #  There are three types  of user in linux- root , regular , service,
    
+   1. The root user Account: 
    
-   1. The root user Account
-   This is main user account  in linux system. It is  automatically created during the installation. It has the highest privilege in system 
-It can do any administrative work and can access any service .
-It should not be used for routin activities 
-It cannot be deleted. But if require it can be disabled
+    This is main user account  in linux system. 
+    
+    It is  automatically created during the installation.
+    
+    It has the highest privilege in system 
+    
+    It can do any administrative work and can access any service .
+    
+    It should not be used for routin activities 
+    
+    It cannot be deleted. But if require it can be disabled
 
-   2. the regular user account
-This is the normal user account during the installation,  one regular user account is created. After the installation we can creat as many regular user account as we need . This  account has moderate privilege . This account is intended for roùtin works it can access only those file and services for whiche it is authorized. As per requirement it can disable or deleted
+   2. the regular user account:
+    
+This is the normal user account during the installation,  one regular user account is created.
+
+After the installation we can creat as many regular user account as we need .
+
+This  account has moderate privilege .
+
+This account is intended for roùtin works it can access only those file and services for whiche it is authorized. As per requirement it can disable or deleted
    
-   3.The service account
+   3.The service account: 
+   
 Service account are created by installation packages when they are installed these account are used by Service  to run processes and execute functions
 
 
-# groups
-User  can be listed  in different groups. Group allow us to set permissions on the group level  instead of setting the permissions  on individual  level
+🟢  groups :
 
+User  can be listed  in different groups. Group allow us to set permissions on the group level  instead of setting the permissions  on individual  level
 
 
  
@@ -529,16 +554,26 @@ This command takes as input the ip or the URL and sends a data packet to the spe
   It is much more powerful with more functions and facilities than ifconfig command
    
    
-   [4:25 pm, 20/07/2022] Sastik Kumar🙃🤟: Used to much more powerful with more functions and facilities than ifconfig command.
-[4:25 pm, 20/07/2022] Sastik Kumar🙃🤟: Used to show all ip address associated an all network devices
-[4:30 pm, 20/07/2022] Sastik Kumar🙃🤟: Used to show of an particular interface
-[4:31 pm, 20/07/2022] Sastik Kumar🙃🤟: Itis used to display link layers information
-[4:32 pm, 20/07/2022] Sastik Kumar🙃🤟: This link option when used with -s option  tp show the statistics of the various network
-[4:35 pm, 20/07/2022] Sastik Kumar🙃🤟: This command helps you to see the rout packets your network will take as set in your table
-[4:36 pm, 20/07/2022] Sastik Kumar🙃🤟: This is used to assign an ip address to an interface
-[4:37 pm, 20/07/2022] Sastik Kumar🙃🤟: This is used to delete an an assignment ip address to an interface.
-[4:37 pm, 20/07/2022] Sastik Kumar🙃🤟: This option enables a network inter face.
-[4:38 pm, 20/07/2022] Sastik Kumar🙃🤟: This command  can monitor and displays the state of devices address and routes continuosly
+   Used to much more powerful with more functions and facilities than ifconfig command.
+   
+ Used to show all ip address associated an all network devices
+ 
+ Used to show of an particular interface
+ 
+ Itis used to display link layers information
+ 
+ This link option when used with -s option  tp show the statistics of the various network
+ 
+ This command helps you to see the rout packets your network will take as set in your table
+ 
+ This is used to assign an ip address to an interface
+ 
+ This is used to delete an an assignment ip address to an interface.
+ 
+ This option enables a network inter face.
+ 
+ This command  can monitor and displays the state of devices address and routes continuosly
+ 
    #  $ss 🐱‍👤
   Used to show network statistics. Ss is faster version of netstate command .
 Ss is essential for gathering network information  and troubleshooting network issues
