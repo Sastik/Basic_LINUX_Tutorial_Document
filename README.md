@@ -350,11 +350,11 @@ Display man Pages From Specific Sections:
 
    2. Copy Source file to Destination directory -
          
-            cp [Source] [Directory]
+           cp [Source] [Directory]
   
    3. Copy multiple Sources(files) to Directory -
         
-            cp [Source-1] [Source-2] [Source-3] [Source-n] [Directory]
+           cp [Source-1] [Source-2] [Source-3] [Source-n] [Directory]
             
    
    #  $mv 🐱‍👤
@@ -414,13 +414,14 @@ Display man Pages From Specific Sections:
    The command makes turns ordinary terminal text into big fancy letters or creating ASCII text banners
    
    Example :
-     1.Transform as a banner or large text using figlet
+   
+ 1.Transform as a banner or large text using figlet
      
-         figlet -c Sastik Kumar
+       figlet -c Sastik Kumar
       
-     2. The toilet command is also used to transform text to large ASCII characters
+ 2. The toilet command is also used to transform text to large ASCII characters
      
-         toilet kali linux
+       toilet kali linux
         
    #  $factor 🐱‍👤
    Used to print the prime factors of the given numbers
@@ -433,17 +434,18 @@ Display man Pages From Specific Sections:
    Used to list the currently running  processes and their PIDs along with some other information depends on different options.
    
    Syntax: 
+   
          ps [options]
    
    Example :
         
            ps
    
-     1. View all processes associated with this terminal : 
+    1. View all processes associated with this terminal : 
  
            ps -T
            
-     2.  View all the running processes :  
+    2.  View all the running processes :  
           
           ps - r
 
@@ -458,7 +460,8 @@ Display man Pages From Specific Sections:
            kill [pid]
       
    Example :
-      1. To display all the available signals you can use below command option-
+   
+     1. To display all the available signals you can use below command option-
         
             kill -l
       
@@ -514,17 +517,17 @@ Display man Pages From Specific Sections:
            
            sudo shutdown now
            
-      1. Make shutdown power-off machine
+   1. Make shutdown power-off machine
       
-            shutdown -P
+          shutdown -P
             
-       2. reboot using shutdown
+   2. reboot using shutdown
        
-            shutdown -r
+          shutdown -r
             
-       3.cancel a scheduled shutdown
+   3.cancel a scheduled shutdown
        
-            sudo shutdown -c
+          sudo shutdown -c
    
 #  Text Logs Related commands in Linux📸🐱
 
