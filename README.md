@@ -959,19 +959,154 @@ This command takes as input the ip or the URL and sends a data packet to the spe
  This command  can monitor and displays the state of devices address and routes continuosly
  
    #  $ss 🐱‍👤
-  Used to show network statistics. Ss is faster version of netstate command .
-Ss is essential for gathering network information  and troubleshooting network issues
+  Used to show network statistics. Ss is faster version of netstate command.
+  
+   Ss is essential for gathering network information  and troubleshooting network issues
+         
+          ss
+          
+**Example :**
+  
+ 🎭1. List all listening and non-listening connections with
+
+         ss --all
+
+  🎭2. To display only listening sockets, which are omitted by default, use
+
+         ss --listen
+
+  🎭3. To list TCP connections, add the -t option to the ss command
+
+         ss --tcp
+
+ 🎭4. Combine the options -a and -t with the ss command to output a list of all the TCP connections
+
+          ss -at
+
+  🎭5. Combine the options -l and -t with the ss command to list all listening TCP connections:
+
+           ss -lt
+
+  🎭6. To show a list of UDP connections, use:
+
+          ss --udp
+
+  🎭7. Combining the options -a and -u with ss outputs a list of all the TCP connections:
+
+           ss -au
+
+  🎭8. To list all listening UDP connections, use the ss command with options -l and -u:
+
+            ss -lu
+
+  🎭9. To show all the Unix family sockets, use:
+
+          ss -x
+          
+or
+
+         ss -f unix
+
+  🎭10. To list raw sockets, use:
+
+          ss --w
+
+  🎭11. List connections to a specific destination IP address with:
+
+         ss dst <address>
+
+  🎭12. To show connections to a specific source address, use:
+
+          ss src <addresss>
+
+  🎭13. To show process IDs (PID), use:
+
+          ss -p
+
+  🎭14. List the summary statistics for connections with:
+
+            ss -s
+
+  🎭15. Filter results further by listing IPv4/IPv6 connections with:
+           ss -4
+  
+  &
+  
+           ss -6
+
+  🎭16. list all IPv6 UDP connections with
+
+           ss -au6
+  
+  🎭17. For a quick overview of the available options
+
+           ss -h
    
    #  $dig 🐱‍👤
-   Dig command stands for domain information grouper basically used by network administrators used for verifying and troubleshooting DNS  problems and to perform  🎭  DNS lookups. Also ised for retrieving information about DNS lookups.
- Also used for retrieveing information about DNS name servers
+   🎭  Dig command stands for domain information grouper basically used by network administrators used for verifying and troubleshooting DNS  problems and to perform DNS lookups.
    
-   #  $ssh 🐱‍👤
-   SSH stand for "Secure Shell" It is a protocol used to security connect to a remote server/system. Ssh is secure in the sense that it transfers  the date in encrypted from between the host and the client 
- SSH runs at TCP / IP port 22
+   Also ised for retrieving information about DNS lookups.
+   
+   Also used for retrieveing information about DNS name servers
+   
+   Syntax:
+
+          dig [server] [name] [type]
+          
+  Example: 
+    
+  🎭1. To query domain “A” record
+
+           dig geeksforgeeks.org
+           
+  🎭2. To set or clear all display flags.
+
+            dig geeksforgeeks.org +noall
+   
+  🎭3.To query detailed answers.
  
- Step 1 : $ Services SSH start 
-Step 2 : $ SSH username@ipaddress
+           dig geeksforgeeks.org +noall +answer
+          
+  🎭4. To query all DNS record types.
+
+            dig geeksforgeeks.org ANY
+   
+  🎭 5.To query MX record for the domain.
+
+            dig geeksforgeeks.org MX
+        
+  🎭6.To trace DNS path
+
+            dig geeksforgeeks.org +trace    
+        
+   🎭7.For specifying name servers
+
+           dig geeksforgeeks.org @8.8.8.8  
+    
+    
+   🎭8.To query the statistics section
+
+          dig geeksforgeeks.org +noall +answer +stats
+          
+          
+   #  $ssh 🐱‍👤
+   SSH stand for "Secure Shell" It is a protocol used to security connect to a remote server/system. 
+   
+   Ssh is secure in the sense that it transfers the date in encrypted from between the host and the client .
+   
+   SSH runs at TCP / IP port 22
+ 
+ 🔗Step 1 : ssh srvice start
+ 
+         Services SSH start 
+ 
+ 🔗Step 2 :  Accessing 
+ 
+         SSH username@ipaddress
+                 
+  🔗Step 3 : generating public-private keys use the
+  
+         ssh-keygen       
    
 #  File permissions change related in linux📸🐱
 
