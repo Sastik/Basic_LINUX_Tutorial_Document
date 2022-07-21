@@ -566,7 +566,7 @@ Display man Pages From Specific Sections:
    #  $ifconfig > ipinfo.txt 🐱‍👤
    Used for ip information savin a text file
    
-    Syntax :
+  Syntax :
      
            ifconfig > ipinfo.txt
           
@@ -723,7 +723,7 @@ Display man Pages From Specific Sections:
 
            du [OPTION] [FILE]
            
-    Example :
+   Example :
     
    1.  print sizes in human readable format(K, M, G), use -h option
     
@@ -785,7 +785,7 @@ Display man Pages From Specific Sections:
 
           lsusb [ options ]
     
-    Example: 
+  Example: 
     
   1.  -v : display the output in verbose mode and also display detailed information about the devices connected.
            
@@ -820,13 +820,13 @@ Display man Pages From Specific Sections:
    #  $dmicode 🐱‍👤
    Used to reads the DMI table to display hardware and BIOS information of the server
     
-    Syntax:
+  Syntax:
 
            dmidecode [OPTIONS]
    
-   Example :
+ Example :
    
-   1. Running a simple dmidecode command to get hardware information.
+  1. Running a simple dmidecode command to get hardware information.
 
          dmicode | more
          
@@ -858,26 +858,37 @@ Display man Pages From Specific Sections:
    #  $adduser [user_name]🐱‍👤
    Used to add a new user to your current Linux  machine. It allows us to modify the configuration of the user which is to be created
    
-   
+          adduser [user_name]
+          
    #  $cat /etc/passwd🐱‍👤
    Used to display a plan text -based  database that contains information for all user account on the system giving  for each account some usefull information like user id group id home directory shell and more
+   
+        cat /etc/passwd
    
    #  $userdel [user_name]🐱‍👤
    Used to delete a user account and related files. Basically modifies the system account files , deleting all the entries which refer to the  username login
    
+         userdel [user_name]
+          
    #  $groupadd [gp_name]🐱‍👤
-  Group add command creat a new group  account using the values specified on the command line and the default values feom the system
+  Group add command creat a new group  account using the values specified on the command line and the default values feom the system.
+  
+         groupadd [gp_name]
    
    #  $cat /etc/group 🐱‍👤
-   Used to display a plan text-file that contains a list of groups  and members belonging  to each group on the system
+   Used to display a plan text-file that contains a list of groups  and members belonging  to each group on the system.
+   
+         cat /etc/group
    
    #  $groupdel [gp_name]  🐱‍👤
-   Used to delete  all entries related to a group in the system
+   Used to delete  all entries related to a group in the system.
+   
+         groupdel [gp_name] 
    
    #  $passwd [user_name]🐱‍👤
    Used to chnage passwords for user accounts
    
-   
+          passwd [user_name]
    
    
   #  Networking Command in Linux📸🐱
@@ -963,15 +974,76 @@ Ss is essential for gathering network information  and troubleshooting network i
 Step 2 : $ SSH username@ipaddress
    
 #  File permissions change related in linux📸🐱
+
+ #  $ls -l  🐱‍
+   list all the  files with their permission mode
+
+        ls -l 
+        
+   #  $ls -l *.txt 🐱‍
+   list all the text files with their permission mode
+
+        ls -l *.txt  
+        
+   #  $ls -la 🐱‍👤
+   Get a full list of hidden files .information about the user presentation,  size of the file and date and tjme of modifications Using  ls –la
+   
+         ls -la
    
    #  $chmod 🐱‍👤
    
    Chmod is used to chnage the access permissions of files and directories. It stand for chnage mode  
+   
+  Syntax :
+      
+          chmod <options> <permissions> <file name>  
+   
  Option: 
     '+' stands for add
     '-' stands for remove
 
-   
-   
+Example :
+
+🧿To change directory permissions for everyone, use “u” for users, “g” for group, “o” for others, and “ugo” or “a” (for all).
+
+1 :Change that the owner cannot write(w) in the file but can only read it.
+
+        chmod u=r [file_name]
+        
+ 2.restrict the permission such that the user cannot search the directory.
+
+        chmod u=rw [dir_name]
+        
+ 3. to give read, write, and execute to everyone.
+
+         chmod ugo+rwx [foldername]
+         
+4.to restrict write and execute permission for everyone.
+
+          chmod a-wx foldername 
+
+ ⚖ Permission numbers are:
+
+        0 = ---
+        1 = --x
+        2 = -w-
+        3 = -wx
+        4 = r-
+        5 = r-x
+        6 = rw-
+        7 = rwx
+
+
+ 5.  will give read, write, and execute permissions for everyone.
+
+         chmod 777 [foldername]
+         
+ 6.  will give read, write, and execute permissions for the user only.
+
+          chmod 700 [foldername]
+          
+ 7.  will give write and execute (3) permission for the user, w (2) for the group, and read, write, and execute for the users.
+
+          chmod 327 [foldername]
    
   
