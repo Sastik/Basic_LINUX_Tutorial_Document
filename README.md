@@ -1048,7 +1048,10 @@ Example :
    #  $arp -e 🐱‍👤
    The arp stands for " Address Resolution Protocol" it makes  changes in the kernel's table which contains the arp Address 
    
-  It communicates with the IPV4  network and resolves the  ip address of any other machines  into the physical  address which is known as the MAC(Media Access control) address
+  🔗It communicates with the IPV4  network and resolves the  ip address of any other machines  into the physical  address which is known as the MAC(Media Access control) address
+   
+   
+         arp -e
    
    #  $hostname 🐱‍👤
    Hostname  is used to display the system DNS name and display or set its host name or NIS(Network Information System) domain name.
