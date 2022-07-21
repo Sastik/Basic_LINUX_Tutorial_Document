@@ -534,15 +534,17 @@ Display man Pages From Specific Sections:
    #  $touch / type 🐱‍👤
    The touch command is a standard command used in LINUX/UNIX OS which is used to craet , chnage and modify timestamp of a file
    
-   Example : 
+ Syntax : 
    
        touch [file_name]
+   
+ Example:
    
  1. Touch command to create multiple files
    
         touch [File1_name] [File2_name] [File3_name]
     
-  2.check whether a file is created or not. If not created then don’t create it. This command avoids creating files.
+ 2.check whether a file is created or not. If not created then don’t create it. This command avoids creating files.
   
         touch -c [fileName]
         
@@ -566,41 +568,41 @@ Display man Pages From Specific Sections:
    
     Syntax :
      
-          ifconfig > ipinfo.txt
+           ifconfig > ipinfo.txt
           
    #  $cat 🐱‍👤
    Used to display text file on screen  read text file   creat a new text file file concatenation...etc
    
    Example:
    
-  1. To view a single file -
+ 1. To view a single file -
 
          cat filename
          
-  2. To view multiple files 
+ 2. To view multiple files 
 
           cat [file1] [file2]
           
-   3. To view contents of a file preceding with line numbers. 
+  3. To view contents of a file preceding with line numbers. 
     
            cat -n [filename]
-   4.Create a file 
+  4.Create a file 
     
            cat > [newfil]
     
-   5. Copy the contents of one file to another file. 
+  5. Copy the contents of one file to another file. 
     
            cat [source_file] > [destination-file]
     
-   6  append the contents of one file to the end of another file.
+  6  append the contents of one file to the end of another file.
     
            cat file1 >> file2
      
-   7.display the content of all text files in the folder. 
+  7.display the content of all text files in the folder. 
      
            cat *.txt
            
-   8.write in an already existing file
+  8.write in an already existing file
       
            cat >> geeks.txt
            
@@ -659,9 +661,7 @@ Display man Pages From Specific Sections:
  
      wq! 
      
- Where w for save and 
- 
- q for quit vim
+ Where w for save and q for quit vim
    
   
 
@@ -681,7 +681,7 @@ Display man Pages From Specific Sections:
     
            df
     
-    2.If you want to display all the file system, use -a option.
+   2.If you want to display all the file system, use -a option.
        
            df -a
            
@@ -699,20 +699,20 @@ Display man Pages From Specific Sections:
    
    Syntax:
 
-             free [OPTION]
+           free [OPTION]
              
-    Example : 
+   Example : 
     
    
-    1.Using -b : It just displays the output in unit bytes.
+   1.Using -b : It just displays the output in unit bytes.
     
           free -b
           
-    2.Using -g : This option displays the result in gigabytes.
+   2.Using -g : This option displays the result in gigabytes.
     
            free -g
            
-    3.Using -t : This option displays an additional line containing the total of the total, used and free columns.   
+   3.Using -t : This option displays an additional line containing the total of the total, used and free columns.   
     
            free -t
    
@@ -725,19 +725,19 @@ Display man Pages From Specific Sections:
            
     Example :
     
-    1.  print sizes in human readable format(K, M, G), use -h option
+   1.  print sizes in human readable format(K, M, G), use -h option
     
            du -h /home/sastik/test 
       
-    2.Use -a option for printing all files including directories.
+   2.Use -a option for printing all files including directories.
      
            du -a -h /home/sastik/test 
            
-    3.Use -c option to print total size
+   3.Use -c option to print total size
            
            du -c -h /home/sastik/test
            
-     4.Get the timestamp of last modified using --time option
+   4.Get the timestamp of last modified using --time option
             
            du --time -h /home/sastik/test      
      
@@ -757,25 +757,25 @@ Display man Pages From Specific Sections:
    
    Example: 
    
-   1. To display block devices. 
+  1. To display block devices. 
    
-            lsblk
+          lsblk
             
-    2. To display empty block devices as well.  
+  2. To display empty block devices as well.  
 
-            lsblk -a 
+          lsblk -a 
    
-    3. To print size information in bytes. 
+  3. To print size information in bytes. 
 
-            lsblk -b
+          lsblk -b
    
-    4. To print zone model for devices.  
+  4. To print zone model for devices.  
 
-            lsblk -z 
+          lsblk -z 
    
-    5. To print information about device owner, group, and mode of block devices.  
+   5. To print information about device owner, group, and mode of block devices.  
 
-            lsblk -m  
+          lsblk -m  
     
    
    #  $lsusb 🐱‍👤
@@ -809,11 +809,11 @@ Display man Pages From Specific Sections:
    
    1.Using the -n option displays the vendor and device code for each PCI device:
 
-            lspci -n
+           lspci -n
    
    2.Display PCI Information in the Tag:Value Format
    
-            lspci -vmm
+           lspci -vmm
             
    
    
@@ -830,19 +830,19 @@ Display man Pages From Specific Sections:
 
          dmicode | more
          
-   3. To get information about Processor.
+  2. To get information about Processor.
 
-         dmicode -t processor
+          dmicode -t processor
          
-   5. To get BIOS information.
+  3. To get BIOS information.
 
-         dmicode  -t bios
+          dmicode  -t bios
          
-   6. To get System information.
+  4. To get System information.
    
-         dmicode -t system
+          dmicode -t system
          
-    6. To get memory information.
+   5. To get memory information.
    
            dmicode -t memory
            
