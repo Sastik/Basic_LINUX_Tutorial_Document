@@ -577,30 +577,30 @@ Display man Pages From Specific Sections:
 
          cat filename
          
-   2. To view multiple files 
+  2. To view multiple files 
 
           cat [file1] [file2]
           
-    3. To view contents of a file preceding with line numbers. 
+   3. To view contents of a file preceding with line numbers. 
     
            cat -n [filename]
-    4.Create a file 
+   4.Create a file 
     
            cat > [newfil]
     
-    5. Copy the contents of one file to another file. 
+   5. Copy the contents of one file to another file. 
     
            cat [source_file] > [destination-file]
     
-    6  append the contents of one file to the end of another file.
+   6  append the contents of one file to the end of another file.
     
            cat file1 >> file2
      
-     7.display the content of all text files in the folder. 
+   7.display the content of all text files in the folder. 
      
            cat *.txt
            
-    8.write in an already existing file
+   8.write in an already existing file
       
            cat >> geeks.txt
            
