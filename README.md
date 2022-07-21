@@ -1016,14 +1016,15 @@ Display man Pages From Specific Sections:
    
    **Examle: **
    
-  1. followed by the domain name will display the “A Record” (IP Address) of the domain
+ 🎭1. followed by the domain name will display the “A Record” (IP Address) of the domain
+  
           nslookup google.com 
   
-  2.Reverse DNS lookup
+ 🎭2.Reverse DNS lookup
   
           nslookup 192.168.0.10
           
-  3.Lookup for an mx record        
+ 🎭3.Lookup for an mx record        
           
           nslookup -type=mx google.com : 
           
@@ -1033,13 +1034,13 @@ Display man Pages From Specific Sections:
    
         host
    
-   Example :
+Example :
    
-    1.print the IP address details of the specified domain  
+🎭1.print the IP address details of the specified domain  
            
            host geeksforgeeks.org
            
-     2. display the domain details of the specified IP Address
+ 🎭2. display the domain details of the specified IP Address
      
            host 52.25.109.230
 
