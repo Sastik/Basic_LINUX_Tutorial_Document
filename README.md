@@ -669,34 +669,187 @@ Display man Pages From Specific Sections:
 
 
    #  $df 🐱‍👤
-   Used to display information related to fine system about total space and available space
+   Used to display information related to fine system about total space and available space.
+   
+   Syntax : 
+   
+          df [OPTION] [FILE]
+   
+   Example: 
+   
+   1.If no file name is given, it displays the space available on all currently mounted file systems.
+    
+           df
+    
+    2.If you want to display all the file system, use -a option.
+       
+           df -a
+           
+   3.Use -h option to display size in power of 1024
+     
+           df -h
+           
+   4.To get complete grand total, use –total option
+    
+            df --total      
+     
    
    #  $free 🐱‍👤
-   Used to display summary about the total amount of the physical and swap memory as well as the free and used memory
+   Used to display summary about the total amount of the physical and swap memory as well as the free and used memory.
+   
+   Syntax:
+
+             free [OPTION]
+             
+    Example : 
+    
+   
+    1.Using -b : It just displays the output in unit bytes.
+    
+          free -b
+          
+    2.Using -g : This option displays the result in gigabytes.
+    
+           free -g
+           
+    3.Using -t : This option displays an additional line containing the total of the total, used and free columns.   
+    
+           free -t
    
    #  $du 🐱‍👤
    Short for disk usage is use to estimate file space usage the do command can be consuming excessive amount of space on hard disk drive
    
+   Syntax :
+
+           du [OPTION] [FILE]
+           
+    Example :
+    
+    1.  print sizes in human readable format(K, M, G), use -h option
+    
+           du -h /home/sastik/test 
+      
+    2.Use -a option for printing all files including directories.
+     
+           du -a -h /home/sastik/test 
+           
+    3.Use -c option to print total size
+           
+           du -c -h /home/sastik/test
+           
+     4.Get the timestamp of last modified using --time option
+            
+           du --time -h /home/sastik/test      
+     
+   
    #  $cat/proc/cpuinfo 🐱‍👤
    Display  what type of processor your system is running including the number of cpu's  present. Provides each process with an identifying number
    
+           cat/proc/cpuinfo
+           
    #  $lscpu 🐱‍👤
    Used to display information about the cpu architecture
    
+            lscpu
+            
    #  $lsblk 🐱‍👤
    Used to display details about block devices and these block devices are basically those files that represent devices connected to the pc
+   
+   Example: 
+   
+   1. To display block devices. 
+   
+            lsblk
+            
+    2. To display empty block devices as well.  
+
+            lsblk -a 
+   
+    3. To print size information in bytes. 
+
+            lsblk -b
+   
+    4. To print zone model for devices.  
+
+            lsblk -z 
+   
+    5. To print information about device owner, group, and mode of block devices.  
+
+            lsblk -m  
+    
    
    #  $lsusb 🐱‍👤
    Used to display the information about usb buses and the devices connected to them
    
+   Syntax:
+
+          lsusb [ options ]
+    
+    Example: 
+    
+  1.  -v : display the output in verbose mode and also display detailed information about the devices connected.
+           
+           lsusb -v
+           
+  2. -t : dump the physical USB device hierarchy as a tree.
+
+            lsusb -t  
+      
+   
    #  $lspci 🐱‍👤
-   Used to displays information about each PCI bus on the system. This includes information about the devices connected to the PCI subsystem
+   Used to displays information about each PCI bus on the system. This includes information about the devices connected to the PCI subsystem.
+   
+          lspci
+   
+   Syntax: 
+   
+             lspci [options]
+             
+   Example : 
+   
+   1.Using the -n option displays the vendor and device code for each PCI device:
+
+            lspci -n
+   
+   2.Display PCI Information in the Tag:Value Format
+   
+            lspci -vmm
+            
+   
    
    #  $dmicode 🐱‍👤
-   Used to reads the system DMI table to display hardware and BIOS information of the server
+   Used to reads the DMI table to display hardware and BIOS information of the server
+    
+    Syntax:
+
+           dmidecode [OPTIONS]
    
-   #  $lsb -release 🐱‍👤
+   Example :
+   
+   1. Running a simple dmidecode command to get hardware information.
+
+         dmicode | more
+         
+   3. To get information about Processor.
+
+         dmicode -t processor
+         
+   5. To get BIOS information.
+
+         dmicode  -t bios
+         
+   6. To get System information.
+   
+         dmicode -t system
+         
+    6. To get memory information.
+   
+           dmicode -t memory
+           
+   #  $lsb_release 🐱‍👤
    Utility display LSB (Linux Standard Base) information about the Linux distribution
+   
+         lsb_release
    
    
 #  Users and Groups in Linux📸🐱
