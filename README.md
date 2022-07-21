@@ -26,7 +26,7 @@ A Linux based server could run non-stop without a reboot for years on end
  
   🐱‍👤UNIX  is a propriety operating  system  from Bell Laboratories the open Group  holds the UNIX  trademark & manage thr UNIX trademark  licencesing program. 
 
-Companies have their own licencesed UNIX  : 
+**Companies have their own licencesed UNIX  :** 
 
        IBM(AIX)
        HP(HP- UX)
@@ -127,7 +127,7 @@ Another advantage: restricted program can be executed from the terminal by using
          root , regular , service,
    
    
-  1. The root user Account: 
+  **1. The root user Account:** 
    
  🔗 This is main user account  in linux system. 
     
@@ -141,7 +141,7 @@ Another advantage: restricted program can be executed from the terminal by using
     
  🔗It cannot be deleted. But if require it can be disabled
 
- 2. the regular user account:
+ **2. the regular user account:**
     
 🔗This is the normal user account during the installation,  one regular user account is created.
 
@@ -151,12 +151,12 @@ Another advantage: restricted program can be executed from the terminal by using
 
 🔗This account is intended for roùtin works it can access only those file and services for whiche it is authorized. As per requirement it can disable or deleted
    
-  3.The service account: 
+  **3.The service account:** 
    
 🔗Service account are created by installation packages when they are installed these account are used by Service  to run processes and execute functions
 
 
-🟢  groups :
+🟢  **groups :**
 
 🔗User  can be listed  in different groups. Group allow us to set permissions on the group level  instead of setting the permissions  on individual  level
 
@@ -197,7 +197,7 @@ Another advantage: restricted program can be executed from the terminal by using
    
       ls
       
-   Example : 
+   **Example :** 
     
    1. Open Last Edited File Using ls -t
 
@@ -265,7 +265,7 @@ Another advantage: restricted program can be executed from the terminal by using
     
       cd [directory_name]
   
-  Example :
+  **Example :**
   
    1.Change directory to the root directory: 
            
@@ -287,7 +287,7 @@ Another advantage: restricted program can be executed from the terminal by using
    #  $man 🐱‍👤
    Used to display the user manual of any command that we can run on the terminal
    
-   syntax: 
+   **syntax:** 
    
       man [option] [section number] [command name]
          
@@ -298,7 +298,7 @@ Another advantage: restricted program can be executed from the terminal by using
    
    🔗command name – the name of the command which man page you want to see.
    
-   Example: 
+   **Example:** 
    
    💻Look for man Pages :
    
@@ -313,11 +313,11 @@ Display man Pages From Specific Sections:
    #  $mkdir 🐱‍👤
    Allows to user to creat or make new dirwctoin the current working director
    
-   syntax: 
+  **syntax:** 
    
            mkdir [options...] [directories_name]
     
-  Example :
+  **Example :**
     
   1.To displays a message for every directory created
     
@@ -342,7 +342,7 @@ Display man Pages From Specific Sections:
    #  $cp 🐱‍👤
    Used to coppy files or group of  files or directory 
    
-  Syntax :
+  **Syntax :**
    
    1. Copy Source file to Destination file -
            
@@ -360,7 +360,7 @@ Display man Pages From Specific Sections:
    #  $mv 🐱‍👤
    Used to move one or more files or directory from one placed  to another place in the file system
    
-   Syntax: 
+   **Syntax:** 
    
           mv [source] [destination]
           
@@ -374,7 +374,7 @@ Display man Pages From Specific Sections:
    #  $date 🐱‍👤
   Used to print out or display the system dare and time 
    
-   EXAMPLE :
+   **EXAMPLE :**
      
    1. date with no option displau current date.
           
@@ -392,11 +392,11 @@ Display man Pages From Specific Sections:
    #  $cal 🐱‍👤
    Used to see the calendar of a specific month or a whole year
    
-   Syntax: 
+   **Syntax:** 
 
          cal  [ month ] [year]
          
-   Example : 
+   **Example :** 
    
    1.calendar of the complete current year with the current date highlighted using cal -y
          
@@ -413,7 +413,7 @@ Display man Pages From Specific Sections:
    #  $figlet/toilet 🐱‍👤
    The command makes turns ordinary terminal text into big fancy letters or creating ASCII text banners
    
-   Example :
+   **Example :**
    
  1.Transform as a banner or large text using figlet
      
@@ -426,18 +426,18 @@ Display man Pages From Specific Sections:
    #  $factor 🐱‍👤
    Used to print the prime factors of the given numbers
    
-   Syntax:
+   **Syntax:**
 
            factor [NUMBER]
 
    #  $ps 🐱‍👤
    Used to list the currently running  processes and their PIDs along with some other information depends on different options.
    
-   Syntax: 
+   **Syntax:** 
    
          ps [options]
    
-   Example :
+   **Example :**
         
            ps
    
@@ -459,7 +459,7 @@ Display man Pages From Specific Sections:
       
           kill [pid]
       
-   Example :
+  **Example :**
    
   1. To display all the available signals you can use below command option-
         
@@ -468,7 +468,7 @@ Display man Pages From Specific Sections:
    #  $dpkg 🐱‍👤
    Used to interact with packages on our system the dpkg command  provides  a long list option to customise the data we received while analysing our network. 
    
-   Example : 
+   **Example :** 
    
   1. To view and list all the installed packages, use the “-l” option along with the command.
      
@@ -508,11 +508,11 @@ Display man Pages From Specific Sections:
    #  $sudo shatdown 🐱‍👤
    Used to shutdown the in a safe way you can shutdown the machine immediately or schedule a shutdown using 24 hours format
    
-  Syntax :
+ **Syntax :**
      
          shutdown [OPTIONS] [TIME] [MESSAGE]
           
-   Example :
+   **Example :**
            
           sudo shutdown now
            
@@ -534,7 +534,7 @@ Display man Pages From Specific Sections:
    #  $touch / type 🐱‍👤
    The touch command is a standard command used in LINUX/UNIX OS which is used to craet , chnage and modify timestamp of a file
    
- Syntax : 
+ **Syntax :** 
    
        touch [file_name]
    
@@ -551,14 +551,14 @@ Display man Pages From Specific Sections:
    #  $echo 🐱‍👤
    Used to display line of text / string that are passed as an argument
    
- Syntax :
+ **Syntax :**
 
          echo [option] [string]
    
    #  $figlet [text] >fig.txt🐱‍👤
    Used for highlight text saving file
    
-   Syntax: 
+   **Syntax:** 
        
         figlet [text] > fig.txt
        
@@ -566,14 +566,14 @@ Display man Pages From Specific Sections:
    #  $ifconfig > ipinfo.txt 🐱‍👤
    Used for ip information savin a text file
    
-  Syntax :
+  **Syntax :**
      
            ifconfig > ipinfo.txt
           
    #  $cat 🐱‍👤
    Used to display text file on screen  read text file   creat a new text file file concatenation...etc
    
-   Example:
+   **Example:**
    
  1. To view a single file -
 
@@ -611,21 +611,21 @@ Display man Pages From Specific Sections:
    #  $head [n] [filename] 🐱‍👤
    Used to print top n nunber of data of the given input
    
-   Syntax: 
+   **Syntax:** 
    
         head [OPTION] [FILE]
    
    #  $tail [tail] [filename] 🐱‍👤
    Used to print last n number of data of the given input
    
-   Syntax: 
+   **Syntax:** 
    
         tail [OPTION] [FILE]
         
    #  $more 🐱‍👤
    Used to view the text files  in the command prompt displaying one screen at a time in case the file is large
    
-   Syntax :
+  **Syntax :**
    
         more [file_name]
         
@@ -633,14 +633,14 @@ Display man Pages From Specific Sections:
    Used to read the contents of a text file one page at a time .it is faster acces because if file is large if doesn't access the complete file but access it page by page
    
    
-   Syntax :
+   **Syntax :**
    
         more [file_name]
         
    #  $nano 🐱‍👤
    To creat and open a new file in nano text editor
    
-   Example : 
+   **Example :** 
    
    1. To create and open a new file
 
@@ -649,7 +649,7 @@ Display man Pages From Specific Sections:
    #  $vim 🐱‍👤
    To creat and some options to do a new file in vim text editor
    
-   Syntax :
+   **Syntax :**
         
           vim [new_file]
   
@@ -671,11 +671,11 @@ Display man Pages From Specific Sections:
    #  $df 🐱‍👤
    Used to display information related to fine system about total space and available space.
    
-   Syntax : 
+   **Syntax :** 
    
           df [OPTION] [FILE]
    
-   Example: 
+   **Example:** 
    
    1.If no file name is given, it displays the space available on all currently mounted file systems.
     
@@ -697,11 +697,11 @@ Display man Pages From Specific Sections:
    #  $free 🐱‍👤
    Used to display summary about the total amount of the physical and swap memory as well as the free and used memory.
    
-   Syntax:
+   **Syntax:**
 
            free [OPTION]
              
-   Example : 
+  **Example :** 
     
    
    1.Using -b : It just displays the output in unit bytes.
@@ -719,11 +719,11 @@ Display man Pages From Specific Sections:
    #  $du 🐱‍👤
    Short for disk usage is use to estimate file space usage the do command can be consuming excessive amount of space on hard disk drive
    
-   Syntax :
+   **Syntax :**
 
            du [OPTION] [FILE]
            
-   Example :
+   **Example :**
     
    1.  print sizes in human readable format(K, M, G), use -h option
     
@@ -755,7 +755,7 @@ Display man Pages From Specific Sections:
    #  $lsblk 🐱‍👤
    Used to display details about block devices and these block devices are basically those files that represent devices connected to the pc
    
-   Example: 
+   **Example:** 
    
   1. To display block devices. 
    
@@ -781,11 +781,11 @@ Display man Pages From Specific Sections:
    #  $lsusb 🐱‍👤
    Used to display the information about usb buses and the devices connected to them
    
-   Syntax:
+   **Syntax:**
 
           lsusb [ options ]
     
-  Example: 
+  **Example:** 
     
   1.  -v : display the output in verbose mode and also display detailed information about the devices connected.
            
@@ -801,11 +801,11 @@ Display man Pages From Specific Sections:
    
           lspci
    
-   Syntax: 
+   **Syntax:** 
    
              lspci [options]
              
-   Example : 
+   **Example :** 
    
    1.Using the -n option displays the vendor and device code for each PCI device:
 
@@ -820,11 +820,11 @@ Display man Pages From Specific Sections:
    #  $dmicode 🐱‍👤
    Used to reads the DMI table to display hardware and BIOS information of the server
     
-  Syntax:
+  **Syntax:**
 
            dmidecode [OPTIONS]
    
- Example :
+ **Example :**
    
   1. Running a simple dmidecode command to get hardware information.
 
@@ -1028,6 +1028,7 @@ or
             ss -s
 
   🎭15. Filter results further by listing IPv4/IPv6 connections with:
+  
            ss -4
   
   &
@@ -1049,11 +1050,11 @@ or
    
    Also used for retrieveing information about DNS name servers
    
-   Syntax:
+   **Syntax:**
 
           dig [server] [name] [type]
           
-  Example: 
+  **Example:** 
     
   🎭1. To query domain “A” record
 
@@ -1096,15 +1097,15 @@ or
    
    SSH runs at TCP / IP port 22
  
- 🔗Step 1 : ssh srvice start
+ **🔗Step 1 :** ssh srvice start
  
          Services SSH start 
  
- 🔗Step 2 :  Accessing 
+ **🔗Step 2 :**  Accessing 
  
          SSH username@ipaddress
                  
-  🔗Step 3 : generating public-private keys use the
+  **🔗Step 3 :** generating public-private keys use the
   
          ssh-keygen       
    
@@ -1129,15 +1130,16 @@ or
    
    Chmod is used to chnage the access permissions of files and directories. It stand for chnage mode  
    
-  Syntax :
+  **Syntax :**
       
           chmod <options> <permissions> <file name>  
    
- Option: 
+ **Option:**
+ 
     '+' stands for add
     '-' stands for remove
 
-Example :
+**Example :**
 
 🧿To change directory permissions for everyone, use “u” for users, “g” for group, “o” for others, and “ugo” or “a” (for all).
 
@@ -1157,7 +1159,7 @@ Example :
 
           chmod a-wx foldername 
 
- ⚖ Permission numbers are:
+ **⚖ Permission numbers are:**
 
         0 = ---
         1 = --x
