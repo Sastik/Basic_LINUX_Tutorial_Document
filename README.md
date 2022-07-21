@@ -895,25 +895,155 @@ Display man Pages From Specific Sections:
 
 
    #  $ifconfig 🐱‍👤
-   Used to assign an address to a network interface and to configure  or display  the current network interface configuration information
+   Used to assign an address to a network interface and to configure  or display  the current network interface configuration information.
    
-   For display the current network interface configuration information
+   For display the current network interface configuration information.
    
-   For assign an ip address and netmask address
+   For assign an ip address and netmask address.
    
+   **Syntax:**
+
+         ifconfig [...OPTIONS] [INTERFACE]
+         
+   **Example**:
+   
+  🎭1. to display all the interfaces available, even if they are down.
+         
+          ifconfig -a
+    
+  🎭2.Display a short list, instead of details.
+
+           ifconfig -s
+           
+  🎭3.to activate the driver for the given interface.
+
+           ifconfig [interface] up
+            
+  🎭4.to deactivate the driver for the given interface.
+
+           ifconfig [interface] down
+           
+  🎭5.to remove an IPv6 address to an interface.
+
+           ifconfig [interface] del addr/prefixlen
+           
+  🎭6. to enable/disable the use of ARP protocol on an interface.
+
+            ifconfig [interface] [-]arp
+            
+  🎭7. Assign an IP Address to Network Interface  
+            
+            ifconfig [interface] [ip_add]
+            
+  🎭7.Assign a Netmask to Network Interface   
+   
+             ifconfig [interface] netmask [net_mask]
+             
+ 🎭8. Assign a Broadcast to Network Interfac
+  
+           ifconfig [interface] broadcast [brod_cast] 
+  
+  🎭9.Change MTU for a Network Interface
+   
+           ifconfig [interface] mtu 1000 
+   
+  🎭10.Enable Promiscuous Mode
+   
+             ifconfig [interface] promisc
+   
+  🎭11.Disable Promiscuous Mode
+
+             ifconfig [interface] -promisc
+   
+  🎭12. Change the MAC address of Network Interface
+  
+            ifconfig [interface] hw ether [mac_add]
+            
    #  $ping 🐱‍👤
    Used to check the network connectivity  between host and server. 
-This command takes as input the ip or the URL and sends a data packet to the specified  address with the message " PING" and get a response from the server/host this time is recorded which is called latency 
+   
+🏹This command takes as input the ip or the URL and sends a data packet to the specified  address with the message " PING" and get a response from the server/host this time is recorded which is called latency 
 
- First ping low latency means fatser connection
+ 📝First ping low latency means fatser connection
+    
+  **Syntax:**
+        
+        ping [option] [hostname] or [IP address]
+        
+   **Example :**
+   
+   🎭1.to check whether a remote host is up, in this case, google.com,
+   
+         ping google.com
+   
+   
+   🎭2.If you encounter issues reaching a website or a remote machine, you can ping localhost to confirm you have a network connection.
+   
+           ping 0
+  
+  or
+         
+          ping localhost
+         
+  or
+   
+          ping 127.0.0.1 
+          
+   🎭3.ping flood to test your network performance under heavy load.
+   
+          sudo ping -f hostname-IP
+    
+   🎭4.An audible ping is useful when you are troubleshooting network issues and do not want to look at the screen until there is a response.
+   
+   
+         ping -a google.com
+    
+   🎭5.To request IPv6 or IPv4 address, add -6 or -4 after the ping command and before a hostname/IP.
+
+          ping -6 hostname/IPv6
+          
+&
+
+          ping -4 hostname/IPv4
+   
    
    #  $nslookup 🐱‍👤
    Used for DNS (Domain Name System) lookup oper also used to find the ip address of a particular domain name or find out the domain name of a particular ip address
    
+   **Syntax:** 
+
+            nslookup [option]
    
+   **Examle: **
+   
+  1. followed by the domain name will display the “A Record” (IP Address) of the domain
+          nslookup google.com 
+  
+  2.Reverse DNS lookup
+  
+          nslookup 192.168.0.10
+          
+  3.Lookup for an mx record        
+          
+          nslookup -type=mx google.com : 
+          
+          
    #  $host 🐱‍👤
    Used for getting information from the DNS server also used to troubleshoot DNS-related problems
    
+        host
+   
+   Example :
+   
+    1.print the IP address details of the specified domain  
+           
+           host geeksforgeeks.org
+           
+     2. display the domain details of the specified IP Address
+     
+           host 52.25.109.230
+
+
    #  $arp -e 🐱‍👤
    The arp stands for " Address Resolution Protocol" it makes  changes in the kernel's table which contains the arp Address 
    
